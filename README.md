@@ -74,7 +74,7 @@ python main.py
 
 Then enter numbers one by one:
 ```
-Enter numbers to sort (type 'exit' to finish):
+Enter numbers to sort (type 'exit' to finish, or 'random' for chaos):
 > 42
 Added: 42.0
 > 17
@@ -86,6 +86,19 @@ Added: 99.0
 Sorting 3 number(s) using LLM...
 
 The sorted list is [17.0, 42.0, 99.0]
+```
+
+#### 🎲 Random Mode
+
+Feeling chaotic? Type `random` to generate 10-30 random numbers and watch your GPU suffer:
+```
+Enter numbers to sort (type 'exit' to finish, or 'random' for chaos):
+> random
+Generated 17 random numbers: [-45.23, 89.12, -12.5, ...]
+
+Sorting 17 number(s) using Bogomagic...
+
+The sorted list is [-89.12, -45.23, -12.5, ...]
 ```
 
 ## Configuration
